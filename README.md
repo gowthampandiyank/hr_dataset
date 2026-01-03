@@ -1,103 +1,90 @@
-# HR Database Analysis Project
+# 📊 HR Analytics Dashboard | SQL • Power BI • Excel
 
 ## 📌 Project Overview
-This project focuses on **HR data analysis** using **SQL**, **Excel**, and **python ( numpy )**.  
-The goal is to analyze employee information and generate meaningful business insights such as salary trends, employee distribution, manager performance, and workforce patterns.
+This project focuses on **HR Data Analysis** to extract meaningful insights about employees, salaries, departments, managers, and workforce distribution.  
+The analysis is performed using **SQL**, **Excel**, and **Power BI**, followed by building an **interactive dashboard** for business decision-making.
+
+---
+
+## 🎯 Objectives
+- Analyze employee demographics and workforce structure  
+- Identify salary trends across departments and roles  
+- Understand employee types and working hours  
+- Track active vs inactive employees  
+- Provide manager-wise and department-wise insights  
 
 ---
 
 ## 🧰 Tools & Technologies
-- **Database:** MySQL / MS SQL Server  
-- **Languages:** SQL  
-- **Data Source:** HR Dataset (Excel / SQL)  
-- **Version Control:** Git & GitHub  
+- **Power BI** – Dashboard & DAX Measures  
+- **SQL** – Data extraction & analysis  
+- **Excel** – Data cleaning & preprocessing  
 
 ---
 
-## 📂 Project Structure
+## 📂 Dataset Description
+The dataset contains multiple tables including:
 
+### 🧑‍💼 Employee Basics
+- Employee ID, Name, Age, Gender  
+- Country, Address, Email  
+- Manager ID, Age Group  
 
----
-
-## 📊 Business Questions & Analysis
-This project answers **35+ real-world HR analytics questions**, including:
-
-### 👥 Employee Metrics
-1. Total number of employees  
-2. Total number of managers  
-3. Employees count by age group  
-4. Employee count by employment type  
-5. Country-wise employee count  
-
-### 💰 Salary Analysis
-6. Highest and lowest salary  
-7. Highest and lowest salary by position  
-8. Highest and lowest salary by department  
-9. Salary statistics by position  
-10. Average salary by employee type  
-
-### 🕒 Work & Performance
-11. Average working hours by position  
-12. Longest working employee per manager  
-13. Working hour outliers  
-14. Employees working more than defined hours  
-
-### 🧑‍💼 Manager Insights
-15. Manager-wise employee summary  
-16. Active vs inactive employees per manager  
-17. Gender diversity per manager  
-18. Total employees under each manager  
-
-### 🧹 Data Quality Checks
-19. Duplicate records  
-20. Missing or invalid email IDs  
-21. Unusual mobile numbers  
-22. Employees without assigned managers  
-
-(Complete list available in `questions.txt`)
+### 💼 Working Details
+- Department, Position  
+- Salary, Employee Type  
+- Joining Date, Working Hours  
+- Active / Inactive Status  
 
 ---
 
-## 📈 Power BI Dashboard
-Key visualizations include:
-- Employee distribution by department & age
-- Salary trends by role and employment type
-- Manager performance overview
-- Active vs inactive employee ratio
-- Gender diversity analysis
+## 📊 Power BI Dashboard Features
+- Employees by **Department**
+- Employees by **Age Group**
+- **Gender distribution** by department
+- **Salary analysis** (Min, Max, Average, Total Cost)
+- **Employee type breakdown** (Intern, Contract, Part-Time)
+- **Active vs Inactive employees**
+- Manager and department insights
 
 ---
 
-## ✅ Key Insights
-- Identified highest-paying departments and roles  
-- Analyzed workload imbalance using working hours  
-- Detected data quality issues (duplicates, invalid emails)  
-- Measured manager-wise team performance  
+## 📈 Key Insights
+- Identified **highest and lowest paying departments**
+- Analyzed **workforce distribution** across age groups
+- Tracked **working hour patterns**
+- Highlighted **active vs inactive employee ratios**
+- Provided **manager-wise employee summaries**
 
 ---
 
 ## 🚀 How to Use
-1. Import `hr_dataset.sql` into MySQL or MS SQL Server  
-2. Run SQL queries to generate insights  
-3. Load data into Power BI for visualization  
-4. Explore dashboards and reports  
+1. Load the dataset into **SQL Server / MySQL**
+2. Run SQL queries to generate insights
+3. Import cleaned data into **Power BI**
+4. Explore the interactive dashboard
 
 ---
 
-## 🎯 Learning Outcomes
-- Advanced SQL querying  
+## 🎓 Learning Outcomes
+- Practical SQL querying  
 - HR analytics use cases  
-- Data cleaning & validation  
+- Data modeling & KPI creation  
 - Power BI dashboard design  
-- Real-world business problem solving  
+- Data-driven storytelling  
 
 ---
 
 ## 📌 Author
 **Gowtham**  
-Data Analyst | SQL | Power BI | python (numpy) | Excel | 
+Aspiring Data Analyst  
+Skills: SQL | Power BI | Excel | Python (NumPy)
 
 ---
 
-## ⭐ If you like this project
-Give it a ⭐ on GitHub and feel free to fork or contribute!
+## ⭐ Support
+If you find this project helpful:
+- Give it a ⭐ on GitHub  
+- Feel free to fork or contribute  
+
+Thank you for visiting!
