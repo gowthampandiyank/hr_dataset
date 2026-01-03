@@ -455,7 +455,7 @@ AVG(salary) < (
     FROM employees_working_details
 );
 
--- 2.3 List employees whose salary is within 10% of the company’s highest salary.
+-- 2.3 List employees whose salary is within 10% of the companyÂ’s highest salary.
 
 SELECT
 EMPLOYEE_ID,
@@ -632,7 +632,7 @@ ORDER BY avg_salary;
 SELECT
 CASE
     WHEN age < 30 THEN 'Under 30'
-    WHEN age BETWEEN 30 AND 50 THEN '30–50'
+    WHEN age BETWEEN 30 AND 50 THEN '30Â–50'
     ELSE 'Above 50'
 END AS age_group,
 gender,
@@ -641,7 +641,7 @@ FROM dbo.employess_basics
 GROUP BY
 CASE
     WHEN age < 30 THEN 'Under 30'
-    WHEN age BETWEEN 30 AND 50 THEN '30–50'
+    WHEN age BETWEEN 30 AND 50 THEN '30Â–50'
     ELSE 'Above 50'
 END,
 gender;
@@ -659,7 +659,7 @@ FROM dbo.employees_working_details;
 
 
 -- 6.4 Find top 3 performing departments by average working hours.
-SELECT TOP 3
+SELECT
 deportment,
 AVG(working_hours) AS avg_working_hours
 FROM dbo.employees_working_details
@@ -673,5 +673,3 @@ FROM dbo.employees_working_details
 WHERE active_employee = 'ACTIVE'
 AND DATEDIFF(DAY, joining_date, GETDATE()) >= 30;
 
-
---C:\Users\gowth\OneDrive\Documents\SQL Server Management Studio 22
